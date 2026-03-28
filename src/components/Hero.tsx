@@ -21,8 +21,8 @@ const products = Array.from({ length: 23 }, (_, i) => {
   return { id, name, price, img: `/capture${id}.jpg`, description: cosme.desc };
 });
 
-const WHATSAPP_NUMBER = "22507879292";
-const BUSINESS_NAME = "American Beauty Center";
+const WHATSAPP_NUMBER = "2250759927833";
+const BUSINESS_NAME = "Dr Rashel Côte d'ivoire ";
 
 export default function Hero() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -148,8 +148,8 @@ export default function Hero() {
 
       <footer className="fixed bottom-6 right-6 z-50">
         <div className="bg-black/95 text-white px-5 py-2.5 rounded-2xl shadow-2xl flex items-center gap-3 border border-white/10 uppercase italic">
-          <span className="text-[10px] font-bold tracking-widest opacity-50 uppercase tracking-[0.3em]">Showroom</span>
-          <span className="text-xs font-black border-l border-white/20 pl-3 uppercase">{BUSINESS_NAME}</span>
+          <span className="text-[10px] font-bold tracking-widest opacity-50 uppercase tracking-[0.3em]">by</span>
+          <span className="text-xs font-black border-l border-white/20 pl-3 uppercase">CATALOGA</span>
         </div>
       </footer>
     </div>
